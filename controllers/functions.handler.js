@@ -5,7 +5,7 @@ const correosUsados = require("../models/correosUsados");
 const { searchContactByEmail } = require("./verifyTelegramId");
 const { updateTelegramId } = require("./updateTelegramId");
 
-const token = "7382801594:AAEIrd90KzG60aC4o8KMBtWH-OGz3y9bTxw";
+const token = "7931221789:AAFtKMhK9RKkH-PsyRjaeBjWIq79DTlXhuU";
 const bot = new TelegramBot(token, { polling: true });
 
 const channel = { id: "-1002162795717", name: "Club Enigmario" };
