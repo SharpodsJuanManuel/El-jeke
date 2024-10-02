@@ -14,7 +14,7 @@ const UsedEmailSchema = new mongoose.Schema({
 });
 
 const correosUsados = mongoose.model(
-  "enigmarioUsersEmailUsed",
+  "JekeUsersEmailUsed",
   UsedEmailSchema
 );
 

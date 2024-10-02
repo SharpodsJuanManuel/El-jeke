@@ -9,6 +9,6 @@ const UsedEmailSchema = new mongoose.Schema({
   isActive: Boolean,
 });
 
-const UsedEmail = mongoose.model("activosEnigmario", UsedEmailSchema);
+const UsedEmail = mongoose.model("activosJeke", UsedEmailSchema);
 
 module.exports = UsedEmail;
